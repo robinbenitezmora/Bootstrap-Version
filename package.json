@@ -1,24 +1,24 @@
 {
-  "name": "hello-microverse",
+  "name": "bootstrap-version",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)\r # Robin's Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robinbenitezmora/Hello-Microverse.git"
+    "url": "git+https://github.com/robinbenitezmora/Bootstrap-Version.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robinbenitezmora/Hello-Microverse/issues"
+    "url": "https://github.com/robinbenitezmora/Bootstrap-Version/issues"
   },
-  "homepage": "https://github.com/robinbenitezmora/Hello-Microverse#readme",
+  "homepage": "https://github.com/robinbenitezmora/Bootstrap-Version#readme",
   "devDependencies": {
-    "hint": "^6.1.10",
+    "hint": "^7.1.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
