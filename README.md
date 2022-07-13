@@ -2,27 +2,27 @@
 # Robin's Portfolio
 
 >
-This portfolio shows my achievements and what I have been able to develop thanks to my abilities by designing products in programming. If you have a new project and need code it, feel free to contact me.
+This project shows how we can work with CSS pre=processors, in this case Bootstrap. Therefore, we will build a Desktop Version of the Figma Template 1 by means Bootstrap. If you have a new project and need code it, feel free to contact me.
 
 ## Built With
 
 - HTML5.
-- CSS.
+- Bootstrap.
 - Visual Studio Code.
+- GitHub.
 
 
 ### Install
-Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Portfolio-Robin-Benitez
+Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Bootstrap-Version
 
 Any suggestion is welcome.
 
 ## Authors
 
- **Robin Benitez Mora**
+ **Robin Benitez Mora**   
+ **Carlos Vivas**
 
 GitHub: https://github.com/robinbenitezmora
-
-GitHub Pages Deployed: https://robinbenitezmora.github.io/Portfolio-Robin-Benitez/
 
 LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 -I thank Microverse for allowing me to use their template.
 
--Thanks to my coding partner Abdulrahman Nganje for helping with your good advices to improve my code in this project.
+-Thanks to my coding partner Carlos Vivas for helping with your good advices to improve my code in this project.
 
 ## 📝 License
 
