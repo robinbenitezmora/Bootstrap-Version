@@ -15,30 +15,33 @@
 
     <title>Desktop Bootstrap Version</title>
   </head>
-  <body>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#page-navbar"
+    data-bs-offset="0"
+    tabindex="0"
+  >
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container" id="page-navbar">
         <a class="navbar-brand" href="/index.html" aria-label="Home">My Logo</a>
-        <ul class="nav justify-content-end">
+        <ul class="nav nav-pills justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Portfolio</a
-            >
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header class="container">
+    <header class="container mt-5 pt-5">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <h1>
             I'm Robin<br />
             Glad to see you!
@@ -46,7 +49,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <p>
             I'm a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -56,10 +59,10 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-8"><a href="#">LET'S CONNECT</a></div>
+        <div class="col-lg-8"><a href="#">LET'S CONNECT</a></div>
       </div>
       <div class="row justify-content-center">
-        <ul class="col-8 list-inline">
+        <ul class="col-lg-8 list-inline">
           <li class="list-inline-item">
             <img src="./icons/twitter.svg" alt="twitter" />
           </li>
@@ -79,14 +82,14 @@
       </div>
     </header>
 
-    <main class="container">
-      <section class="row justify-content-center" id="projects">
-        <div class="col-10 card p-4 my-4">
+    <main class="container mt-5 pt-5">
+      <section class="row justify-content-center" id="Portfolio">
+        <div class="col-lg-10 card p-4 my-4">
           <div class="row">
-            <div class="col-6 p-4">
+            <div class="col-md-6 p-4">
               <img src="./images/works/Tonic.png" class="img-fluid" alt="..." />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card-body">
                 <h5 class="card-title">Tonic</h5>
                 <ul class="list-inline">
@@ -116,16 +119,16 @@
             </div>
           </div>
         </div>
-        <div class="col-10 card p-4 my-4">
+        <div class="col-lg-10 card p-4 my-4">
           <div class="row flex-md-row-reverse">
-            <div class="col-6 p-4">
+            <div class="col-md-6 p-4">
               <img
                 src="./images/works/Multi-Post Stories.png"
                 class="img-fluid"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card-body">
                 <h5 class="card-title">Multi_Post Stories</h5>
                 <ul class="list-inline">
@@ -157,16 +160,16 @@
             </div>
           </div>
         </div>
-        <div class="col-10 card p-4 my-4">
+        <div class="col-lg-10 card p-4 my-4">
           <div class="row">
-            <div class="col-6 p-4">
+            <div class="col-md-6 p-4">
               <img
                 src="./images/works/Facebook 360.png"
                 class="img-fluid"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card-body">
                 <h5 class="card-title">Facebook 360</h5>
                 <ul class="list-inline">
@@ -198,16 +201,16 @@
             </div>
           </div>
         </div>
-        <div class="col-10 card p-4 my-4">
+        <div class="col-lg-10 card p-4 my-4">
           <div class="row flex-md-row-reverse">
-            <div class="col-6 p-4">
+            <div class="col-md-6 p-4">
               <img
                 src="./images/works/Uber Navigation.png"
                 class="img-fluid"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card-body">
                 <h5 class="card-title">Uber Navigation</h5>
                 <ul class="list-inline">
@@ -240,9 +243,9 @@
         </div>
       </section>
 
-      <section class="row justify-content-center" id="about">
-        <div class="col-10 row">
-          <div class="col-4">
+      <section class="row justify-content-center my-5 py-5" id="about">
+        <div class="col-lg-10 row">
+          <div class="col-md-4">
             <h2>About Myself</h2>
             <p>
               Hello I'm a software developer! I can help you build a product,
@@ -270,7 +273,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-8">
+          <div class="col-md-8">
             <div class="accordion accordion-flush" id="accordionFlushAbout">
               <div class="accordion-item">
                 <h3 class="accordion-header" id="flush-heading-Languages">
@@ -357,9 +360,9 @@
       </section>
     </main>
 
-    <footer class="container">
+    <footer class="container my-5 py-5" id="contact">
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-md-6">
           <h2 class="text-center">Contact me</h2>
           <p class="text-center">
             If you have an application you are interested in developing, a
@@ -419,3 +422,39 @@
     ></script>
   </body>
 </html>
+
+<!---
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>...</p>
+</div>
+-->
