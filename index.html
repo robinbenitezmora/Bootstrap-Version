@@ -21,6 +21,114 @@
     data-bs-offset="0"
     tabindex="0"
   >
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row">
+              <ul class="col-12 list-inline">
+                <li class="list-inline-item">CANOPY.</li>
+                <li class="list-inline-item">
+                  <img src="./images/dot.png" alt="" />
+                </li>
+                <li class="list-inline-item">Back End Dev.</li>
+                <li class="list-inline-item">
+                  <img src="./images/dot.png" alt="" />
+                </li>
+                <li class="list-inline-item">2015</li>
+              </ul>
+            </div>
+            <div class="row">
+              <img
+                src="images/modals/Snapshoot Portfolio.png"
+                class="col-12 img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="row">
+              <div class="col-lg-9">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it 1960s with the
+                  releaLorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it 1960s with the
+                  releorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum han printer took a galley of
+                  type and scrambled it 1960s with the releawn printer took a
+                  galley of type and scrambled it 1960s with the releaLorem
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it 1960s with the relea
+                </p>
+              </div>
+              <div class="col-lg-3">
+                <ul class="d-flex flex-wrap flex-row list-unstyled">
+                  <li class="px-1">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="px-1">
+                    <span class="badge bg-secondary">css</span>
+                  </li>
+                  <li class="px-1">
+                    <span class="badge bg-secondary">javascript</span>
+                  </li>
+                  <li class="px-1">
+                    <span class="badge bg-secondary">github</span>
+                  </li>
+                  <li class="px-1">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                  <li class="px-1">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                </ul>
+                <div class="d-flex flex-wrap flex-row">
+                  <button type="button" class="btn btn-outline-primary m-1">
+                    See live
+                    <img src="./icons/modal/see-live.svg" alt="github" />
+                  </button>
+                  <button type="button" class="btn btn-outline-primary m-1">
+                    See Source
+                    <img src="./icons/modal/github.svg" alt="github" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-light bg-light">
       <div class="container" id="page-navbar">
@@ -59,7 +167,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-8"><a href="#">LET'S CONNECT</a></div>
+        <div class="col-lg-8"><a href="#contact">LET'S CONNECT</a></div>
       </div>
       <div class="row justify-content-center">
         <ul class="col-lg-8 list-inline">
@@ -112,7 +220,12 @@
                   <span class="badge bg-secondary">css</span>
                   <span class="badge bg-secondary">javascript</span>
                 </p>
-                <button type="button" class="btn btn-outline-primary">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   See Project
                 </button>
               </div>
@@ -153,7 +266,12 @@
                   <span class="badge bg-secondary">css</span>
                   <span class="badge bg-secondary">javascript</span>
                 </p>
-                <button type="button" class="btn btn-outline-primary">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   See Project
                 </button>
               </div>
@@ -194,7 +312,12 @@
                   <span class="badge bg-secondary">css</span>
                   <span class="badge bg-secondary">javascript</span>
                 </p>
-                <button type="button" class="btn btn-outline-primary">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   See Project
                 </button>
               </div>
@@ -234,7 +357,12 @@
                   <span class="badge bg-secondary">css</span>
                   <span class="badge bg-secondary">javascript</span>
                 </p>
-                <button type="button" class="btn btn-outline-primary">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   See Project
                 </button>
               </div>
