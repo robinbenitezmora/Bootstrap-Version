@@ -1,62 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# Robin's Portfolio
 
-# Project Name
-
-> Description the project.
-
+>
+This project shows how we can work with CSS pre=processors, in this case Bootstrap. Therefore, we will build a Desktop Version of the Figma Template 1 by means Bootstrap. If you have a new project and need code it, feel free to contact me.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5.
+- Bootstrap.
+- Visual Studio Code.
+- GitHub.
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
 
 ### Install
+Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Bootstrap-Version
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Any suggestion is welcome.
 
 ## Authors
 
-👤 **Author1**
+ **Robin Benitez Mora**   
+ **Carlos Vivas**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub: https://github.com/robinbenitezmora
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +34,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-I thank Microverse for allowing me to use their template.
+
+-Thanks to my coding partner Carlos Vivas for helping with your good advices to improve my code in this project.
 
 ## 📝 License
 
